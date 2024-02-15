@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color:#333; /* Light black shade for the entire background */
+    background-color:#FFFFFF; 
   }
   
   #calculator {
@@ -15,10 +15,10 @@ body {
     max-width: 300px;
     margin: auto;
     text-align: center;
-    border: 2px solid #000; /* Black border color for the calculator */
-    border-radius: 10px; /* Border radius for a rounded look */
-    background-color: #3498db; /* Blue background color for the calculator */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    border: 2px solid #000; 
+    border-radius: 10px; 
+    background-color: #db5034; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   }
   
   #display {
@@ -29,10 +29,10 @@ body {
     font-size: 20px;
     text-align: right;
     padding: 5px;
-    border: 2px solid #000; /* Black border color for the display */
-    border-radius: 8px; /* Border radius for a rounded display */
-    background-color: #fff; /* White background color for the display */
-    color: #000; /* Black text color for the display */
+    border: 2px solid #000; 
+    border-radius: 8px; 
+    background-color: #e4b792; 
+    color: #000; 
   }
   
   .button {
@@ -42,13 +42,12 @@ body {
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
-    border: 2px solid #000; /* Black border color for the buttons */
-    border-radius: 5px; /* Border radius for a rounded button look */
-    background-color: #fff; /* White background color for the buttons */
-    color: #000; /* Black text color for the buttons */
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    background-color: #e4b792;
+    color: #000;
   }
   
-  button:hover {
-    background-color: #ddd; /* Light gray background color on hover */
+  button: hover {
+    background-color: #e4b792; 
   }
-  
